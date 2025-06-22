@@ -1,0 +1,86 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  background: hsla(173, 89%, 70%, 1);
+
+
+  text-align: center;
+  font-size: 6vmin;
+  color: white;
+  height: 100vh;
+}
+
+.container {
+    height: 70vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.game{
+    height: 60vmin;
+    width: 60vmin;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    gap: 1.5vmin;
+}
+
+.box {
+    height: 18vmin;
+    width: 18vmin;
+    border:none;
+    border-radius: 1rem;
+    box-shadow: 0 0 1re m rgba(0, 0, 0, 0.3);
+    font-size: 8vmin;
+    color: red;
+    cursor: pointer;
+    hover:{
+        background-color: rgba(255, 255, 255, 0.2);
+    }
+}
+
+#reset-btn {
+    padding: 1.25rem;
+    font-size: 1.25rem;
+    color: white;
+    background-color: #292929;
+    border: none;
+    border-radius: 0.5rem;
+    cursor: pointer;
+}
+
+#new-btn{
+    padding: 1.25rem;
+    font-size: 1.25rem;
+    color: white;
+    background-color: #292929;
+    border: none;
+    border-radius: 0.5rem;
+    cursor: pointer;
+}
+
+.msg-container{
+    background-color: #e3e3e3ca;
+    padding: 20px;
+    border-radius: 1rem;
+    box-shadow: 0 0 1rem rgba(0, 0, 0, 0.3);
+    margin: 20px auto;
+    width: 50%;
+}
+
+#msg {
+    font-size: 2rem;
+    color: #292929;
+    text-align: center;
+}
+
+.hide {
+    display: none;
+}
